@@ -20,6 +20,6 @@
   ],
   "dependencies": {
     "angular": "~1.2.9",
-    "signature_pad": "git://github.com/MobileLogix/signature_pad"
+    "mobilelogix-signature-pad": "git://github.com/MobileLogix/signature-pad"
   }
 }
