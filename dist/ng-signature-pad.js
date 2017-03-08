@@ -65,13 +65,13 @@
                 onEnd: $attrs.ngSignaturePadOnEnd
               });
 
-              var oldAddPoint = $scope.ngSignaturePad._addPoint;
+              /*var oldAddPoint = $scope.ngSignaturePad._addPoint;
 
               $scope.ngSignaturePad._addPoint = function (point) {
                 oldAddPoint.call(this, point);
 
                 $scope.$apply();
-              };
+              };*/
 
               if ($attrs.ngSignaturePadAfter) {
                 $scope.$parent.$apply(function (self) {
